@@ -3,6 +3,7 @@ nav {
 	position: fixed;
 	width: 100%;
 	height: 60px;
+	top:0;
 }
 ul li {
 	list-style: none;
@@ -16,18 +17,48 @@ ul li {
 	float: right;
 	padding-right: 20px;
 }
-/*nav a:hover {
-	color: black;
+nav a:link {
+	text-decoration: none;
+	color: purple;
 }
 nav a:visited {
 	color: orange;
 }
-*/
+nav a:hover {
+	color: red;
+}
+form {
+	display: box;
+	margin-top: 100px;
+	margin-left: 100px;
+	position: relative;
+	width: 30%;
+}
 input {
-	float: left;
-	padding-left: 100px;
+	border-radius: 10%;
+	width: 400px;
 }
 img {
+	width: 30px;
 	position: absolute;
+	border-radius: 10%;
+	right: 15px;
+	top: 0px;
+	border: 20px solid black;
 
 }
+.imageBorder {
+	border: 1px solid black;
+}
+placeholder {
+	color: lightgrey;
+}
+section {
+	display: inline-block;
+	top: 500px;
+	margin-left: 200px;
+}
+.date1 {
+
+}
+.results {}
