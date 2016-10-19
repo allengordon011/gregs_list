@@ -28,21 +28,21 @@ nav a:hover {
 	color: red;
 }
 form {
-	display: box;
+	display: inline-block;
 	margin-top: 100px;
 	margin-left: 100px;
 	position: relative;
-	width: 30%;
+	width: 26%;
 }
 input {
 	border-radius: 10%;
 	width: 400px;
 }
 img {
-	width: 30px;
+	width: 21px;
 	position: absolute;
 	border-radius: 10%;
-	right: 15px;
+	right: 5px;
 	top: 0px;
 	border: 20px solid black;
 
@@ -53,12 +53,19 @@ img {
 placeholder {
 	color: lightgrey;
 }
-section {
+.pages {
 	display: inline-block;
 	top: 500px;
-	margin-left: 200px;
+	margin-left: 100px;
+	border: 1px solid black;
 }
-.date1 {
-
+ol {
+	position: relative;
+	margin-left: 25px;
+	margin-top: 250px;
+	list-style: none;
+	line-height: 30px;
 }
-.results {}
+.results {
+	font-size: 18px
+}
