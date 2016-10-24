@@ -1,21 +1,25 @@
-nav {
+.topNav {
 	background-color: lightgrey;
 	position: fixed;
 	width: 100%;
-	height: 60px;
-	top:0;
+	height: 40px;
+	top: 0;
+	padding-bottom: 12px;
 }
 ul li {
 	list-style: none;
 	display: inline-block;
 	font-size: 20px;
+	margin-bottom: 5px;
 }
 .left {
 	float: left;
+	margin-left: -20px;
 }
 .right {
 	float: right;
 	padding-right: 20px;
+	color: purple;
 }
 nav a:link {
 	text-decoration: none;
@@ -27,45 +31,84 @@ nav a:visited {
 nav a:hover {
 	color: red;
 }
+main {
+	margin-left: 120px;
+}
 form {
-	display: inline-block;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 120px;
 	position: relative;
-	width: 26%;
+	font-size: 20px; 
 }
 input {
-	border-radius: 10%;
-	width: 400px;
+	border-radius: 3px;
+	padding: 5px;
+	width: 500px;
 }
 img {
-	width: 21px;
+	width: 35px;
 	position: absolute;
-	border-radius: 10%;
-	right: 5px;
+	border-radius: 3px;
+	left: 520px;
 	top: 0px;
-	border: 20px solid black;
-
+	border: 20px solid lightgrey;
 }
 .imageBorder {
-	border: 1px solid black;
+	border: 1px solid lightgrey;
 }
 placeholder {
 	color: lightgrey;
+	font-size: 20px;
 }
-.pages {
+.navPages {
+	display: block;
+	margin-left: -40px;
+	margin-top: 40px;
+	border-radius: 3px;
+	font-size: 0;
+}
+.pages1 {
 	display: inline-block;
-	top: 500px;
-	margin-left: 100px;
-	border: 1px solid black;
+	border: 1px solid lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+.pages2 {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 18px;
+
+}
+.pages3 {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding: 10px;
+	font-size: 18px;
 }
 ol {
 	position: relative;
-	margin-left: 25px;
-	margin-top: 250px;
+	margin-top: 50px;
 	list-style: none;
 	line-height: 30px;
+	padding: 0px;
+	color: lightgrey;
+}
+ol li {
+	margin-right: 5px;
 }
 .results {
 	font-size: 18px
+}
+.links {
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+	margin-left: 18px;
+	margin-right: 18px;
 }
